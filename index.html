@@ -70,6 +70,20 @@
 
 <p>once initialized you can see the folder structure of hexo framework in target folder</p>
 <h2 id="Configuration"><a href="#Configuration" class="headerlink" title="Configuration"></a>Configuration</h2><p>You can modify the configuration of your site in <span style="background-color: #ddd">_config.yml</span>. You can find the decription of each configuration file in <a target="_blank" rel="noopener" href="https://hexo.io/docs/configuration">Official Document</a></p>
+<h2 id="Hexo-commands"><a href="#Hexo-commands" class="headerlink" title="Hexo commands"></a>Hexo commands</h2><p>Since we using hexo command line interface its worth to know basic commands.</p>
+<h4 id="Initialize-hexo"><a href="#Initialize-hexo" class="headerlink" title="Initialize hexo"></a>Initialize hexo</h4><p>following command will initialize hexo website. If target folder was not specified it will setup website in current folder.</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo init &lt;tagget folder&gt;</span><br></pre></td></tr></table></figure>
+
+<h4 id="Create-new-articles"><a href="#Create-new-articles" class="headerlink" title="Create new articles"></a>Create new articles</h4><p>Following command will create new article <span style="background-color: #ddd">.md</span> file on source folder. If no layout provided it will use default_layout from <span style="background-color: #ddd">_config.yml</span>. Example command is provided bellow.</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new &lt;layout&gt; &lt;title&gt;</span><br><span class="line">$ hexo new <span class="string">&quot;My First Article&quot;</span></span><br></pre></td></tr></table></figure>
+
+<h4 id="Generate"><a href="#Generate" class="headerlink" title="Generate"></a>Generate</h4><p>This command is used to generate static files.</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<h4 id="Server"><a href="#Server" class="headerlink" title="Server"></a>Server</h4><p>This command is used to start local server</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>you can see the full list of commands in <a target="_blank" rel="noopener" href="https://hexo.io/docs/commands">official documentation</a></p>
 
 	
 
@@ -85,6 +99,15 @@
 	<span class="different-posts">📕 end of posts 📕</span>
 
 
+		<div id="hyvor-talk-view"></div>
+		<script type="text/javascript">
+		    var HYVOR_TALK_WEBSITE = 3407;
+		    var HYVOR_TALK_CONFIG = {
+		        url: '' || false,
+		        id: 'index.html' || false
+		    }
+		</script>
+		<script type="text/javascript" src="//talk.hyvor.com/web-api/embed"></script>
 	</main>
 
 	<footer class="footer">

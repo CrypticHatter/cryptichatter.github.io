@@ -69,17 +69,17 @@
 <h2 id="Hexo-commands"><a href="#Hexo-commands" class="headerlink" title="Hexo commands"></a>Hexo commands</h2><p>Since we using hexo command line interface its worth to know basic commands.</p>
 <h4 id="Initialize-hexo"><a href="#Initialize-hexo" class="headerlink" title="Initialize hexo"></a>Initialize hexo</h4><p>following command will initialize hexo website. If target folder was not specified it will setup website in current folder.</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo init &lt;tagget folder&gt;</span><br></pre></td></tr></table></figure>
-
 <h4 id="Create-new-articles"><a href="#Create-new-articles" class="headerlink" title="Create new articles"></a>Create new articles</h4><p>Following command will create new article <span style="background-color: #ddd">.md</span> file on source folder. If no layout provided it will use default_layout from <span style="background-color: #ddd">_config.yml</span>. Example command is provided bellow.</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new &lt;layout&gt; &lt;title&gt;</span><br><span class="line">$ hexo new <span class="string">&quot;My First Article&quot;</span></span><br></pre></td></tr></table></figure>
-
-<h4 id="Generate"><a href="#Generate" class="headerlink" title="Generate"></a>Generate</h4><p>This command is used to generate static files.</p>
+<h4 id="Generate"><a href="#Generate" class="headerlink" title="Generate"></a>Generate</h4><p>when you run this command, hexo will take all the posts, pages, layouts and templates of our website and combine them together to the finished site. after this command you can see new folder called <span style="background-color: #ddd">public</span> in your structure. It’s the source for our website.</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<h4 id="Server"><a href="#Server" class="headerlink" title="Server"></a>Server</h4><p>This command is used to start local server</p>
+<h4 id="Server"><a href="#Server" class="headerlink" title="Server"></a>Server</h4><p>With this command you able to see your finished website local server.</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>you can see the full list of commands in <a target="_blank" rel="noopener" href="https://hexo.io/docs/commands">official documentation</a></p>
+<h4 id="Clean-cache"><a href="#Clean-cache" class="headerlink" title="Clean cache"></a>Clean cache</h4><p>This command will clear the cache file (db.json) and generated files</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo clean</span><br></pre></td></tr></table></figure>
+<h3 id="One-command-deployment"><a href="#One-command-deployment" class="headerlink" title="One-command deployment"></a>One-command deployment</h3><p>After checking your post in local server you can deploy it to github pages where everyone can access it.</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>you can see the full list of commands in <a target="_blank" rel="noopener" href="https://hexo.io/docs/commands">official documentation</a><br>That’s all you need to know to deploy your blog using hexo. I think this process it simple even for a inexpericed developer.<br>Thanks for reading my article, If you have any questions feel free to comment below.</p>
 
 	
 	<div id="hyvor-talk-view"></div>
